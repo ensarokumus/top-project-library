@@ -33,6 +33,7 @@
     <div class="modal" id="addBookModal">
       <form class="add-book-form" id="addBookForm">
         <h3>Add new book</h3>
+        <label for="title" hidden>Title</label>
         <input
           class="input"
           type="text"
@@ -42,6 +43,7 @@
           maxlength="100"
         />
         <p class="error-msg" id="errorMsg"></p>
+        <label for="author" hidden>Author</label>
         <input
           class="input"
           type="text"
@@ -50,6 +52,7 @@
           required
           maxlength="100"
         />
+        <label for="pages" hidden>Pages</label>
         <input
           class="input"
           type="number"
@@ -59,10 +62,10 @@
           max="10000"
         />
         <div class="is-read">
-          <label for="is-read">Have you read it?</label>
-          <input class="checkbox" type="checkbox" id="isRead" />
+          <label for="read">Have you read it?</label>
+          <input class="checkbox" type="checkbox" id="read" />
         </div>
-        <button class="btn btn-light-green" type="submit">Submit</button>
+        <button class="btn btn-light-green" type="submit" id="submit">Submit</button>
       </form>
     </div>
 

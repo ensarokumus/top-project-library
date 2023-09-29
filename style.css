@@ -3,7 +3,7 @@
   --grey: #313131;
   --black: #ffffff;
   --red: #ff7070;
-  --light-green: #9fff9c;
+  --light-green: #61c65d;
   --light-red: #ff9c9c;
   --border-radius: 8px;
   --spacing-xs: 5px;
@@ -89,6 +89,7 @@ input[type='number'] {
 
 .btn-light-red {
   background-color: var(--light-red);
+  color: var(--white);
 }
 
 /* HEADER */
